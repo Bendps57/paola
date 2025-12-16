@@ -41,7 +41,7 @@ const Header = () => {
           <img 
             src={logo} 
             alt="Paola Perruccio - Assistante Indépendante" 
-            className="h-24 md:h-28 w-auto object-contain"
+            className="h-14 md:h-16 w-auto object-contain"
           />
         </a>
 
