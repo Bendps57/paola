@@ -11,11 +11,11 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col items-center text-center">
           {/* Logo */}
-          <div className="mb-8 bg-background/95 rounded-lg p-4">
+          <div className="mb-8">
             <img
               src={logo}
               alt="Paola Perruccio"
-              className="h-16 md:h-20 w-auto object-contain"
+              className="h-24 md:h-28 w-auto object-contain rounded-lg"
             />
           </div>
 
