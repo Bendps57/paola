@@ -15,7 +15,7 @@ const Footer = () => {
             <img
               src={logo}
               alt="Paola Perruccio"
-              className="h-12 w-auto object-contain brightness-0 invert opacity-90"
+              className="h-20 md:h-24 w-auto object-contain brightness-0 invert opacity-90"
             />
           </div>
 
