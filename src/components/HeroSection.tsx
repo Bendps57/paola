@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import paolaPortrait from "@/assets/paola-portrait.jpg";
+
+const paolaPortrait = "/images/portrait-paola.jpg";
 
 const HeroSection = () => {
   const scrollToServices = () => {
@@ -80,11 +81,11 @@ const HeroSection = () => {
               <div className="absolute -inset-4 border border-gold/20 rounded-2xl rotate-3" />
               
               {/* Main image container */}
-              <div className="relative w-72 md:w-80 lg:w-96 aspect-[4/5] rounded-2xl overflow-hidden shadow-elevated">
+              <div className="relative w-72 md:w-80 lg:w-96 aspect-[3/4] rounded-2xl overflow-hidden shadow-elevated">
                 <img
                   src={paolaPortrait}
                   alt="Paola Perruccio - Assistante Indépendante"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top"
                 />
                 {/* Subtle overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-foreground/10 to-transparent" />
