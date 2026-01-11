@@ -1,3 +1,4 @@
+import { Heart } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 const Footer = () => {
@@ -91,9 +92,19 @@ const Footer = () => {
           </div>
 
           {/* Copyright */}
-          <p className="text-primary-foreground/50 text-sm">
+          <p className="text-primary-foreground/50 text-sm mb-4">
             © {currentYear} Paola Perruccio. Tous droits réservés.
           </p>
+
+          {/* Created by */}
+          <a
+            href="https://www.elimyt.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-primary-foreground/40 text-xs hover:text-gold transition-colors"
+          >
+            Créé avec <Heart className="w-3 h-3 text-red-500 fill-red-500" /> par eLimyt
+          </a>
         </div>
       </div>
     </footer>
