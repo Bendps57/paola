@@ -66,6 +66,23 @@ const Footer = () => {
           {/* Separator */}
           <div className="w-full max-w-xs h-px bg-primary-foreground/20 mb-8" />
 
+          {/* Legal links */}
+          <div className="flex flex-wrap justify-center gap-4 mb-6 text-sm">
+            <a
+              href="/politique-confidentialite"
+              className="text-primary-foreground/60 hover:text-gold transition-colors"
+            >
+              Politique de confidentialité
+            </a>
+            <span className="text-primary-foreground/30">|</span>
+            <a
+              href="/cgv"
+              className="text-primary-foreground/60 hover:text-gold transition-colors"
+            >
+              Conditions Générales de Vente
+            </a>
+          </div>
+
           {/* Copyright */}
           <p className="text-primary-foreground/50 text-sm">
             © {currentYear} Paola Perruccio. Tous droits réservés.
