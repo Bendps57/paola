@@ -69,6 +69,13 @@ const Footer = () => {
           {/* Legal links */}
           <div className="flex flex-wrap justify-center gap-4 mb-6 text-sm">
             <a
+              href="/mentions-legales"
+              className="text-primary-foreground/60 hover:text-gold transition-colors"
+            >
+              Mentions légales
+            </a>
+            <span className="text-primary-foreground/30">|</span>
+            <a
               href="/politique-confidentialite"
               className="text-primary-foreground/60 hover:text-gold transition-colors"
             >
@@ -79,7 +86,7 @@ const Footer = () => {
               href="/cgv"
               className="text-primary-foreground/60 hover:text-gold transition-colors"
             >
-              Conditions Générales de Vente
+              CGV
             </a>
           </div>
 
