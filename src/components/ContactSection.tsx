@@ -29,11 +29,11 @@ const ContactSection = () => {
                   Informations de contact
                 </h3>
                 <p className="text-muted-foreground">
-                  N'hésitez pas à me contacter directement par téléphone ou via LinkedIn pour discuter de vos besoins.
+                  N'hésitez pas à me contacter directement par téléphone, email ou via LinkedIn pour discuter de vos besoins.
                 </p>
               </div>
 
-              <div className="flex flex-col md:flex-row justify-center gap-8 md:gap-16">
+              <div className="flex flex-col md:flex-row justify-center flex-wrap gap-8 md:gap-12">
                 {/* Phone */}
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center flex-shrink-0">
@@ -48,6 +48,24 @@ const ContactSection = () => {
                       className="text-muted-foreground hover:text-gold transition-colors"
                     >
                       07 60 84 19 73
+                    </a>
+                  </div>
+                </div>
+
+                {/* Email */}
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p className="font-medium text-foreground">Email</p>
+                    <a
+                      href="mailto:paola.perruccio.pro@gmail.com"
+                      className="text-muted-foreground hover:text-gold transition-colors"
+                    >
+                      paola.perruccio.pro@gmail.com
                     </a>
                   </div>
                 </div>

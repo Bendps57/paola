@@ -27,9 +27,14 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Text Content */}
           <div className="order-2 lg:order-1 text-center lg:text-left">
-            <span className="inline-block text-gold font-medium tracking-[0.2em] text-sm uppercase mb-6 animate-fade-in">
-              Assistante Indépendante
-            </span>
+            <div className="mb-6 animate-fade-in">
+              <h2 className="font-serif text-2xl md:text-3xl text-foreground font-medium mb-2">
+                Paola Perruccio
+              </h2>
+              <span className="inline-block text-gold font-medium tracking-[0.2em] text-sm uppercase">
+                Assistante Indépendante
+              </span>
+            </div>
             
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-medium text-foreground leading-tight mb-6 opacity-0 animate-fade-in-up animation-delay-100">
               Votre partenaire de confiance pour une{" "}

@@ -76,7 +76,7 @@ const AboutSection = () => {
               </p>
               
               <p>
-                Forte de <span className="text-foreground font-medium">plus de 5 années d'expérience</span> en tant qu'assistante administrative salariée, j'ai développé une réelle polyvalence et une excellente capacité d'adaptation aux besoins de chaque structure.
+                Forte de <span className="text-foreground font-medium">plus de 5 années d'expérience</span> en tant qu'assistante administrative salariée et titulaire d'un <span className="text-foreground font-medium">BTS Gestion de la PME</span> ainsi que d'une <span className="text-foreground font-medium">Licence Management et Gestion des Organisations</span>, spécialité Assistant Manager, j'ai développé une réelle polyvalence et une excellente capacité d'adaptation aux besoins de chaque structure.
               </p>
               
               <p>
