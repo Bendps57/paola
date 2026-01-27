@@ -41,7 +41,7 @@ const HeroSection = () => {
               <span className="italic text-gold">gestion sereine</span>
             </h1>
             
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-10 max-w-xl mx-auto lg:mx-0 opacity-0 animate-fade-in-up animation-delay-200">
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-10 max-w-xl mx-auto lg:mx-0 opacity-0 animate-fade-in-up animation-delay-200 text-justify">
               J'accompagne les entreprises, entrepreneurs et professionnels en simplifiant leur quotidien administratif et organisationnel.
             </p>
             

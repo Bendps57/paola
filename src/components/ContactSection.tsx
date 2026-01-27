@@ -16,7 +16,7 @@ const ContactSection = () => {
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-medium text-foreground mb-6">
               Prêt à déléguer ?
             </h2>
-            <p className="text-muted-foreground text-lg max-w-xl mx-auto">
+            <p className="text-muted-foreground text-lg max-w-xl mx-auto text-justify">
               Échangeons sur vos besoins et voyons comment je peux vous aider à avancer sereinement.
             </p>
           </div>
