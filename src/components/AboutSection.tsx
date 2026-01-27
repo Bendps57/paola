@@ -70,7 +70,7 @@ const AboutSection = () => {
             </div>
             
             {/* Main text */}
-            <div className="md:col-span-3 space-y-6 text-muted-foreground leading-relaxed text-lg">
+            <div className="md:col-span-3 space-y-6 text-muted-foreground leading-relaxed text-lg text-justify">
               <p>
                 Assistante indépendante, j'accompagne les entreprises, entrepreneurs et professionnels dans la gestion de leurs tâches administratives et organisationnelles.
               </p>
