@@ -44,7 +44,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="tel:0760841973"
+              href="tel:0619368016"
               className="w-10 h-10 rounded-full bg-primary-foreground/10 hover:bg-gold flex items-center justify-center transition-all duration-300 group"
               aria-label="Téléphone"
             >
