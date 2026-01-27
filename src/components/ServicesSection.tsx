@@ -69,7 +69,7 @@ const ServicesSection = () => {
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-medium text-foreground mb-6">
             Comment je peux vous aider
           </h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+          <p className="text-muted-foreground text-lg max-w-2xl mx-auto text-justify">
             Des services sur mesure pour vous permettre de vous concentrer sur l'essentiel : votre cœur de métier.
           </p>
         </div>

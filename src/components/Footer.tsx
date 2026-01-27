@@ -1,4 +1,5 @@
 import { Heart } from "lucide-react";
+import { Link } from "react-router-dom";
 import logo from "@/assets/logo.png";
 
 const Footer = () => {
@@ -69,26 +70,26 @@ const Footer = () => {
 
           {/* Legal links */}
           <div className="flex flex-wrap justify-center gap-4 mb-6 text-sm">
-            <a
-              href="/mentions-legales"
+            <Link
+              to="/mentions-legales"
               className="text-primary-foreground/60 hover:text-gold transition-colors"
             >
               Mentions légales
-            </a>
+            </Link>
             <span className="text-primary-foreground/30">|</span>
-            <a
-              href="/politique-confidentialite"
+            <Link
+              to="/politique-confidentialite"
               className="text-primary-foreground/60 hover:text-gold transition-colors"
             >
               Politique de confidentialité
-            </a>
+            </Link>
             <span className="text-primary-foreground/30">|</span>
-            <a
-              href="/cgv"
+            <Link
+              to="/cgv"
               className="text-primary-foreground/60 hover:text-gold transition-colors"
             >
               CGV
-            </a>
+            </Link>
           </div>
 
           {/* Copyright */}
