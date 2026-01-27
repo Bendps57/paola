@@ -27,7 +27,7 @@ const ServiceCard = ({ icon, title, description, tasks, index }: ServiceCardProp
       </h3>
 
       {/* Description */}
-      <p className="text-muted-foreground leading-relaxed mb-6">{description}</p>
+      <p className="text-muted-foreground leading-relaxed mb-6 text-justify">{description}</p>
 
       {/* Task list */}
       {tasks && tasks.length > 0 && (
