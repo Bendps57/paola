@@ -22,7 +22,7 @@ const MentionsLegales = () => {
               <li><strong>SIRET :</strong> 999 248 172 00010</li>
               <li><strong>SIREN :</strong> 999 248 172</li>
               <li><strong>Adresse :</strong> 1 Place de Narpange, 57535 Marange-Silvange, France</li>
-              <li><strong>Téléphone :</strong> 06 19 36 80 16</li>
+              <li><strong>Téléphone :</strong> 07 60 84 19 73</li>
               <li><strong>Email :</strong> paola.perruccio.pro@gmail.com</li>
             </ul>
           </section>

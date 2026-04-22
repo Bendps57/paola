@@ -44,10 +44,10 @@ const ContactSection = () => {
                   <div>
                     <p className="font-medium text-foreground">Téléphone</p>
                     <a
-                      href="tel:0619368016"
+                      href="tel:0760841973"
                       className="text-muted-foreground hover:text-gold transition-colors"
                     >
-                      06 19 36 80 16
+                      07 60 84 19 73
                     </a>
                   </div>
                 </div>
